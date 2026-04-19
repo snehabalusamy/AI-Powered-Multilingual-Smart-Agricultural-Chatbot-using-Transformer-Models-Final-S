@@ -1,0 +1,10 @@
+FASTAPI
+uvicorn
+langdetect
+sentence-transformers
+torch
+numpy
+python-multipart
+requests
+textblob
+nltk

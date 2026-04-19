@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Namaste",
+        "Vanakkam",
+        "Namaskaram",
+        "Namaskara",
+        "How are you",
+        "Is anyone there?",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": {
+        "en": "Hello! I am your agricultural assistant. How can I help you today?",
+        "ta": "வணக்கம்! நான் உங்கள் விவசாய உதவியாளர். இன்று நான் உங்களுக்கு எப்படி உதவ முடியும்?",
+        "hi": "नमस्ते! मैं आपका कृषि सहायक हूँ। आज मैं आपकी कैसे मदद कर सकता हूँ?",
+        "te": "నమస్కారం! నేను మీ వ్యవసాయ సహాయకుడిని. ఈరోజు నేను మీకు ఎలా సహాయపడగలను?",
+        "kn": "ನಮಸ್ಕಾರ! ನಾನು ನಿಮ್ಮ ಕೃಷಿ ಸಹಾಯಕ. ಇಂದು ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೆ?"
+      }
+    },
+    {
+      "tag": "crop_recommendation_rice",
+      "patterns": [
+        "best crop for clay soil",
+        "what to grow in clay soil",
+        "rice cultivation suitable soil",
+        "is clay soil good for rice"
+      ],
+      "responses": {
+        "en": "For clay soil, Rice is highly suitable due to its water retention capacity. It grows well in standing water.",
+        "ta": "களிமண் மண்ணுக்கு நெல் மிகவும் ஏற்றது, ஏனெனில் இது நீரைத் தேக்கி வைக்கும் திறன் கொண்டது.",
+        "hi": "चिकनी मिट्टी के लिए चावल बहुत उपयुक्त है क्योंकि इसमें पानी रोकने की क्षमता होती है।",
+        "te": "బంకమట్టి నేలకు వరి చాలా అనుకూలంగా ఉంటుంది ఎందుకంటే దీనికి నీటిని నిలుపుకునే సామర్థ్యం ఉంటుంది.",
+        "kn": "ಜೇಡಿಮಣ್ಣಿಗೆ ಭತ್ತವು ತುಂಬಾ ಸೂಕ್ತವಾಗಿದೆ ಏಕೆಂದರೆ ಅದು ನೀರನ್ನು ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೊಂದಿದೆ."
+      }
+    },
+    {
+      "tag": "fertilizer_rice",
+      "patterns": [
+        "fertilizer for rice",
+        "best fertilizer for paddy",
+        "which fertilizer to use for rice",
+        "urea for rice"
+      ],
+      "responses": {
+        "en": "For rice, a combination of Urea, DAP (Diammonium Phosphate), and MOP (Muriate of Potash) is recommended based on soil test results. Bio-fertilizers like Azospirillum are also good.",
+        "ta": "நெல்லுக்கு யூரியா, டிஏபி (DAP) மற்றும் எம்ஓபி (MOP) ஆகியவற்றின் கலவை மண் பரிசோதனை முடிவுகளின் அடிப்படையில் பரிந்துரைக்கப்படுகிறது. அசோஸ்பைரில்லம் போன்ற உயிர் உரங்களும் நல்லது.",
+        "hi": "चावल के लिए, मिट्टी परीक्षण के परिणामों के आधार पर यूरिया, डीएपी और एमओपी के संयोजन की सिफारिश की जाती है। एज़ोस्पिरिलम जैसे जैव उर्वरक भी अच्छे हैं।",
+        "te": "వరికి, నేల పరీక్ష ఫలితాల ఆధారంగా యూరియా, DAP మరియు MOP కలయిక సిఫార్సు చేయబడింది. అజోస్పిరిల్లమ్ వంటి జీవ ఎరువులు కూడా మంచివి.",
+        "kn": "ಭತ್ತಕ್ಕೆ, ಮಣ್ಣು ಪರೀಕ್ಷೆ ಫಲಿತಾಂಶಗಳ ಆಧಾರದ ಮೇಲೆ ಯೂರಿಯಾ, DAP ಮತ್ತು MOP ಸಂಯೋಜನೆಯನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ. ಅಜೋಸ್ಪಿರಿಲಮ್‌ನಂತಹ ಜೈವಿಕ ಗೊಬ್ಬರಗಳು ಸಹ ಒಳ್ಳೆಯದು."
+      }
+    },
+    {
+      "tag": "pest_control_aphids",
+      "patterns": [
+        "how to control aphids",
+        "white insects on leaves",
+        "aphid control measures",
+        "pesticide for aphids"
+      ],
+      "responses": {
+        "en": "To control aphids, you can spray Neem oil (5ml/liter of water) or use sticky traps. For severe infestation, Imidacloprid can be used as per recommended dosage.",
+        "ta": "அசுவினி பூச்சிகளைக் கட்டுப்படுத்த, நீங்கள் வேப்பெண்ணெய் (ஒரு லிட்டர் நீரில் 5 மிலி) தெளிக்கலாம் அல்லது ஒட்டும் பொறிகளைப் பயன்படுத்தலாம். கடுமையான தாக்குதலுக்கு, பரிந்துரைக்கப்பட்ட அளவின்படி இமிடாக்ளோப்ரிட் பயன்படுத்தலாம்.",
+        "hi": "एफिड्स को नियंत्रित करने के लिए, आप नीम के तेल (5 मिली/लीटर पानी) का छिड़काव कर सकते हैं या चिपचिपे जाल का उपयोग कर सकते हैं। गंभीर संक्रमण के लिए, इमिडाक्लोप्रिड का उपयोग किया जा सकता है।",
+        "te": "పేనుబంకను నియంత్రించడానికి, వేప నూనెను (లీటరు నీటికి 5 మి.లీ) పిచికారీ చేయవచ్చు లేదా జిగురు ఉచ్చులను ఉపయోగించవచ్చు. తీవ్రమైన ముట్టడికి, ఇమిడాక్లోప్రిడ్ ఉపయోగించవచ్చు.",
+        "kn": "ಗಿಡಹೇನುಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು, ನೀವು ಬೇವಿನ ಎಣ್ಣೆಯನ್ನು (ಲೀಟರ್ ನೀರಿಗೆ 5 ಮಿ.ಲೀ) ಸಿಂಪಡಿಸಬಹುದು ಅಥವಾ ಅಂಟು ಬಲೆಗಳನ್ನು ಬಳಸಬಹುದು. ತೀವ್ರವಾದ ಬಾಧೆಗೆ, ಇಮಿಡಾಕ್ಲೋಪ್ರಿಡ್ ಅನ್ನು ಬಳಸಬಹುದು."
+      }
+    },
+    {
+      "tag": "government_schemes",
+      "patterns": [
+        "government schemes for farmers",
+        "PM kisan samman nidhi",
+        "subsidy for tractors",
+        "agricultural loan schemes"
+      ],
+      "responses": {
+        "en": "Popular schemes include PM-KISAN (income support), PMFBY (crop insurance), and KCC (Kisan Credit Card) for low-interest loans.",
+        "ta": "பிரபலமான திட்டங்களில் பிஎம்-கிசான் (வருவாய் ஆதரவு), பிஎம்எஃப்பிஒய் (பயிர் காப்பீடு) மற்றும் கேசிசி (விவசாய கடன் அட்டை) ஆகியவை அடங்கும்.",
+        "hi": "लोकप्रिय योजनाओं में पीएम-किसान (आय सहायता), पीएमएफबीवाई (फसल बीमा), और केसीसी (किसान क्रेडिट कार्ड) शामिल हैं।",
+        "te": "జనాదరణ పొందిన పథకాల్లో PM-KISAN (ఆదాయ మద్దతు), PMFBY (పంట బీమా) మరియు KCC (కిసాన్ క్రెడిట్ కార్డ్) ఉన్నాయి.",
+        "kn": "ಜನಪ್ರಿಯ ಯೋಜನೆಗಳಲ್ಲಿ PM-KISAN (ಆದಾಯ ಬೆಂಬಲ), PMFBY (ಬೆಳೆ ವಿಮೆ) ಮತ್ತು KCC (ಕಿಸಾನ್ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್) ಸೇರಿವೆ."
+      }
+    }
+  ]
+}

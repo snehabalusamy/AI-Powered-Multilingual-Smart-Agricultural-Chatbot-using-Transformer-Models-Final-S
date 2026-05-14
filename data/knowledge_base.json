@@ -7,12 +7,19 @@
         "Hello",
         "Namaste",
         "Vanakkam",
+        "வணக்கம்",
         "Namaskaram",
         "Namaskara",
+        "నమస్కారం",
+        "ನಮಸ್ಕಾರ",
+        "नमस्ते",
         "How are you",
         "Is anyone there?",
         "Good morning",
-        "Good evening"
+        "Good evening",
+        "Hey",
+        "What's up",
+        "Hola"
       ],
       "responses": {
         "en": "Hello! I am your agricultural assistant. How can I help you today?",
@@ -23,12 +30,101 @@
       }
     },
     {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks bye",
+        "நன்றி",
+        "போய் வருகிறேன்",
+        "अलविदा",
+        "धन्यवाद",
+        "వెళ్ళొస్తాను",
+        "ಹೋಗಿ ಬರುತ್ತೇನೆ"
+      ],
+      "responses": {
+        "en": "Goodbye! Happy farming! Feel free to ask anytime.",
+        "ta": "நன்றி! இனிய விவசாயம்! எப்போது வேண்டுமானாலும் கேளுங்கள்.",
+        "hi": "अलविदा! खुशहाल खेती! कभी भी पूछें।",
+        "te": "వెళ్ళొస్తాను! సంతోషకరమైన వ్యవసాయం! ఎప్పుడైనా అడగండి.",
+        "kn": "ಹೋಗಿ ಬರುತ್ತೇನೆ! ಸಂತೋಷದ ಕೃಷಿ! ಯಾವಾಗ ಬೇಕಾದರೂ ಕೇಳಿ."
+      }
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "நன்றி மிக்க நன்றி",
+        "மிக்க நன்றி",
+        "धन्यवाद",
+        "शुक्रिया",
+        "ధన్యవాదాలు",
+        "ಧನ್ಯವಾದ"
+      ],
+      "responses": {
+        "en": "You're welcome! Feel free to ask more questions about farming.",
+        "ta": "நீங்கள் வரவேற்கப்படுகிறீர்கள்! விவசாயம் பற்றி மேலும் கேள்விகள் கேளுங்கள்.",
+        "hi": "आपका स्वागत है! खेती के बारे में और सवाल पूछें।",
+        "te": "మీకు స్వాగతం! వ్యవసాయం గురించి మరిన్ని ప్రశ్నలు అడగండి.",
+        "kn": "ನಿಮಗೆ ಸ್ವಾಗತ! ಕೃಷಿ ಬಗ್ಗೆ ಹೆಚ್ಚಿನ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಿ."
+      }
+    },
+    {
+      "tag": "crop_types",
+      "patterns": [
+        "what are the types of crops",
+        "crop types",
+        "types of crops",
+        "list of crops",
+        "what crops can I grow",
+        "different types of crops",
+        "crop varieties",
+        "what are kharif and rabi crops",
+        "seasonal crops",
+        "payir vagaigal",
+        "payir vagai enna",
+        "enna payir valarkalam",
+        "faslon ke prakar",
+        "kaun si fasal ugayen",
+        "panta rakalu",
+        "bele vidhagalu",
+        "பயிர் வகைகள்",
+        "என்ன பயிர்கள் வளர்க்கலாம்",
+        "பயிர்கள் பற்றி சொல்லுங்கள்",
+        "எந்த பயிர் வளர்க்கலாம்",
+        "फसलों के प्रकार",
+        "कौन सी फसल उगाएं",
+        "పంట రకాలు",
+        "ಬೆಳೆ ವಿಧಗಳು"
+      ],
+      "responses": {
+        "en": "Major crop types in India include: **Kharif crops** (June-Oct): Rice, Maize, Cotton, Sugarcane, Groundnut. **Rabi crops** (Oct-Mar): Wheat, Mustard, Gram, Barley. **Zaid crops** (Mar-Jun): Watermelon, Cucumber, Muskmelon. Choose crops based on your soil type, climate, and water availability.",
+        "ta": "இந்தியாவின் முக்கிய பயிர் வகைகள்: **கரிப் பயிர்கள்** (ஜூன்-அக்): நெல், மக்காச்சோளம், பருத்தி, கரும்பு, நிலக்கடலை. **ரபி பயிர்கள்** (அக்-மார்): கோதுமை, கடுகு, கொண்டைக்கடலை. **சைத் பயிர்கள்** (மார்-ஜூன்): தர்பூசணி, வெள்ளரிக்காய். உங்கள் மண் வகை, காலநிலை மற்றும் நீர் கிடைப்பதன் அடிப்படையில் பயிர்களைத் தேர்ந்தெடுக்கவும்.",
+        "hi": "भारत में प्रमुख फसल प्रकार: **खरीफ फसलें** (जून-अक्टू): धान, मक्का, कपास, गन्ना, मूंगफली। **रबी फसलें** (अक्टू-मार्च): गेहूं, सरसों, चना, जौ। **जायद फसलें** (मार्च-जून): तरबूज, खीरा, खरबूजा। अपनी मिट्टी, जलवायु और पानी की उपलब्धता के आधार पर फसल चुनें।",
+        "te": "భారతదేశంలో ప్రధాన పంట రకాలు: **ఖరీఫ్ పంటలు** (జూన్-అక్టో): వరి, మొక్కజొన్న, పత్తి, చెరకు, వేరుశెనగ. **రబీ పంటలు** (అక్టో-మార్చి): గోధుమ, ఆవాలు, శనగలు. **జైద్ పంటలు** (మార్చి-జూన్): పుచ్చకాయ, దోసకాయ.",
+        "kn": "ಭಾರತದಲ್ಲಿ ಪ್ರಮುಖ ಬೆಳೆ ವಿಧಗಳು: **ಖಾರಿಫ್ ಬೆಳೆಗಳು** (ಜೂನ್-ಅಕ್ಟೋ): ಭತ್ತ, ಮೆಕ್ಕೆಜೋಳ, ಹತ್ತಿ, ಕಬ್ಬು, ಕಡಲೆಕಾಯಿ. **ರಬಿ ಬೆಳೆಗಳು** (ಅಕ್ಟೋ-ಮಾರ್ಚ್): ಗೋಧಿ, ಸಾಸಿವೆ, ಕಡಲೆ."
+      }
+    },
+    {
       "tag": "crop_recommendation_rice",
       "patterns": [
         "best crop for clay soil",
         "what to grow in clay soil",
         "rice cultivation suitable soil",
-        "is clay soil good for rice"
+        "is clay soil good for rice",
+        "nel sagupadi",
+        "kaliman nilathil enna valarkalam",
+        "chikni mitti mein kaun si fasal",
+        "bankamattilo ae panta",
+        "jedimanninallli yaava bele",
+        "நெல் சாகுபடி",
+        "களிமண் நிலத்தில் என்ன வளர்க்கலாம்",
+        "चिकनी मिट्टी में कौन सी फसल",
+        "బంకమట్టిలో ఏ పంట",
+        "ಜೇಡಿಮಣ್ಣಿನಲ್ಲಿ ಯಾವ ಬೆಳೆ"
       ],
       "responses": {
         "en": "For clay soil, Rice is highly suitable due to its water retention capacity. It grows well in standing water.",
@@ -39,12 +135,68 @@
       }
     },
     {
+      "tag": "crop_recommendation_wheat",
+      "patterns": [
+        "best crop for loamy soil",
+        "what to grow in loamy soil",
+        "wheat cultivation",
+        "how to grow wheat",
+        "gothumai sagupadi",
+        "gehun ki kheti",
+        "godhuma saagu",
+        "godhi bele",
+        "கோதுமை சாகுபடி",
+        "गेहूं की खेती",
+        "గోధుమ సాగు",
+        "ಗೋಧಿ ಬೆಳೆ"
+      ],
+      "responses": {
+        "en": "Wheat grows best in loamy soil with good drainage. It requires cool weather during growth and warm weather during harvesting. Best sowing time is October-November.",
+        "ta": "கோதுமை நல்ல வடிகால் கொண்ட களிமண் மண்ணில் நன்கு வளரும். வளரும் போது குளிர்ந்த காலநிலையும் அறுவடையின் போது வெப்பமான காலநிலையும் தேவை. சிறந்த விதைப்பு நேரம் அக்டோபர்-நவம்பர்.",
+        "hi": "गेहूं अच्छी जल निकासी वाली दोमट मिट्टी में सबसे अच्छा उगता है। इसे बढ़ने के दौरान ठंडे मौसम और कटाई के दौरान गर्म मौसम की आवश्यकता होती है। सबसे अच्छा बुवाई का समय अक्टूबर-नवंबर है।",
+        "te": "గోధుమ మంచి నీటి పారుదల ఉన్న ఒండ్రు భూమిలో బాగా పెరుగుతుంది. పెరుగుదల సమయంలో చల్లని వాతావరణం మరియు కోత సమయంలో వేడి వాతావరణం అవసరం.",
+        "kn": "ಗೋಧಿ ಉತ್ತಮ ನೀರಿನ ಹರಿವು ಇರುವ ಜೇಡಿಮಣ್ಣಿನಲ್ಲಿ ಅತ್ಯುತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ."
+      }
+    },
+    {
+      "tag": "crop_recommendation_sugarcane",
+      "patterns": [
+        "how to grow sugarcane",
+        "sugarcane cultivation",
+        "sugarcane farming tips",
+        "best soil for sugarcane",
+        "karumbu sagupadi",
+        "karumbu valarppu",
+        "ganne ki kheti",
+        "cheraku saagu",
+        "kabbina bele",
+        "கரும்பு சாகுபடி",
+        "கரும்பு வளர்ப்பு",
+        "गन्ने की खेती",
+        "చెరకు సాగు",
+        "ಕಬ್ಬಿನ ಬೆಳೆ"
+      ],
+      "responses": {
+        "en": "Sugarcane grows best in tropical regions with deep, fertile loamy soil. It requires 1500-2500mm of rainfall. Planting season is January-March. Ensure proper irrigation and apply Urea in split doses for best yield.",
+        "ta": "கரும்பு வெப்பமண்டல பகுதிகளில் ஆழமான, வளமான களிமண் மண்ணில் நன்கு வளரும். 1500-2500 மிமீ மழை தேவை. நடுகை காலம் ஜனவரி-மார்ச். சிறந்த மகசூலுக்கு சரியான நீர் பாசனம் மற்றும் யூரியாவை பிரித்து இடவும்.",
+        "hi": "गन्ना उष्णकटिबंधीय क्षेत्रों में गहरी, उपजाऊ दोमट मिट्टी में सबसे अच्छा उगता है। इसे 1500-2500 मिमी वर्षा की आवश्यकता होती है।",
+        "te": "చెరకు ఉష్ణమండల ప్రాంతాల్లో లోతైన, సారవంతమైన ఒండ్రు భూమిలో బాగా పెరుగుతుంది.",
+        "kn": "ಕಬ್ಬು ಉಷ್ಣವಲಯ ಪ್ರದೇಶಗಳಲ್ಲಿ ಆಳವಾದ, ಫಲವತ್ತಾದ ಜೇಡಿಮಣ್ಣಿನಲ್ಲಿ ಅತ್ಯುತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತದೆ."
+      }
+    },
+    {
       "tag": "fertilizer_rice",
       "patterns": [
         "fertilizer for rice",
         "best fertilizer for paddy",
         "which fertilizer to use for rice",
-        "urea for rice"
+        "urea for rice",
+        "நெல்லுக்கு உரம்",
+        "நெல் உரம் எது சிறந்தது",
+        "चावल के लिए उर्वरक",
+        "धान के लिए खाद",
+        "వరికి ఎరువు",
+        "ಭತ್ತಕ್ಕೆ ಗೊಬ್ಬರ"
       ],
       "responses": {
         "en": "For rice, a combination of Urea, DAP (Diammonium Phosphate), and MOP (Muriate of Potash) is recommended based on soil test results. Bio-fertilizers like Azospirillum are also good.",
@@ -55,12 +207,44 @@
       }
     },
     {
+      "tag": "fertilizer_general",
+      "patterns": [
+        "what fertilizer should I use",
+        "best fertilizer for crops",
+        "organic fertilizer",
+        "chemical fertilizer vs organic",
+        "how much fertilizer to use",
+        "enna uram payanpaduththa vendum",
+        "uram pattri sollungal",
+        "kaun sa urvarak accha hai",
+        "ae eruvu vadaali",
+        "yaava gobbara balasabeku",
+        "என்ன உரம் பயன்படுத்த வேண்டும்",
+        "உரம் பற்றி சொல்லுங்கள்",
+        "कौन सा उर्वरक अच्छा है",
+        "ఏ ఎరువు వాడాలి",
+        "ಯಾವ ಗೊಬ್ಬರ ಬಳಸಬೇಕು"
+      ],
+      "responses": {
+        "en": "The best fertilizer depends on your crop and soil test results. Common fertilizers: **Urea** (Nitrogen), **DAP** (Phosphorus), **MOP** (Potassium). Always get a soil test done first. Organic options include compost, vermicompost, and green manure.",
+        "ta": "சிறந்த உரம் உங்கள் பயிர் மற்றும் மண் பரிசோதனை முடிவுகளைப் பொறுத்தது. பொதுவான உரங்கள்: **யூரியா** (நைட்ரஜன்), **டிஏபி** (பாஸ்பரஸ்), **எம்ஓபி** (பொட்டாசியம்). முதலில் மண் பரிசோதனை செய்யுங்கள்.",
+        "hi": "सबसे अच्छा उर्वरक आपकी फसल और मिट्टी परीक्षण पर निर्भर करता है। सामान्य उर्वरक: **यूरिया** (नाइट्रोजन), **डीएपी** (फॉस्फोरस), **एमओपी** (पोटैशियम)। पहले मिट्टी परीक्षण करवाएं।",
+        "te": "ఉత్తమ ఎరువు మీ పంట మరియు నేల పరీక్ష ఫలితాలపై ఆధారపడి ఉంటుంది. సాధారణ ఎరువులు: **యూరియా**, **DAP**, **MOP**.",
+        "kn": "ಅತ್ಯುತ್ತಮ ಗೊಬ್ಬರ ನಿಮ್ಮ ಬೆಳೆ ಮತ್ತು ಮಣ್ಣಿನ ಪರೀಕ್ಷೆ ಫಲಿತಾಂಶಗಳ ಮೇಲೆ ಅವಲಂಬಿತವಾಗಿದೆ."
+      }
+    },
+    {
       "tag": "pest_control_aphids",
       "patterns": [
         "how to control aphids",
         "white insects on leaves",
         "aphid control measures",
-        "pesticide for aphids"
+        "pesticide for aphids",
+        "அசுவினி பூச்சி கட்டுப்பாடு",
+        "இலையில் வெள்ளை பூச்சி",
+        "एफिड्स कैसे नियंत्रित करें",
+        "ఆఫిడ్స్ నియంత్రణ",
+        "ಗಿಡಹೇನು ನಿಯಂತ್ರಣ"
       ],
       "responses": {
         "en": "To control aphids, you can spray Neem oil (5ml/liter of water) or use sticky traps. For severe infestation, Imidacloprid can be used as per recommended dosage.",
@@ -71,19 +255,236 @@
       }
     },
     {
+      "tag": "pest_control_general",
+      "patterns": [
+        "how to control pests",
+        "pest management",
+        "insects eating my crops",
+        "organic pest control",
+        "natural pesticide",
+        "பூச்சி கட்டுப்பாடு",
+        "பூச்சி மேலாண்மை",
+        "कीट नियंत्रण",
+        "పురుగుల నియంత్రణ",
+        "ಕೀಟ ನಿಯಂತ್ರಣ"
+      ],
+      "responses": {
+        "en": "Integrated Pest Management (IPM) is recommended: 1) Use Neem-based sprays as first line defense, 2) Introduce natural predators like ladybugs, 3) Use pheromone traps, 4) Rotate crops to break pest cycles, 5) Use chemical pesticides only as last resort.",
+        "ta": "ஒருங்கிணைந்த பூச்சி மேலாண்மை (IPM) பரிந்துரைக்கப்படுகிறது: 1) வேம்பு அடிப்படையிலான தெளிப்புகளைப் பயன்படுத்துங்கள், 2) இயற்கை எதிரிகளை அறிமுகப்படுத்துங்கள், 3) பெரோமோன் பொறிகளைப் பயன்படுத்துங்கள், 4) பயிர் சுழற்சி செய்யுங்கள்.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) की सिफारिश की जाती है: 1) नीम आधारित स्प्रे का उपयोग करें, 2) प्राकृतिक शिकारियों को प्रवेश दें, 3) फेरोमोन ट्रैप का उपयोग करें, 4) फसल चक्रण करें।",
+        "te": "సమగ్ర సస్య రక్షణ (IPM) సిఫార్సు చేయబడింది: 1) వేప ఆధారిత పిచికారీలను ఉపయోగించండి, 2) సహజ శత్రువులను ప్రవేశపెట్టండి, 3) ఫెరోమోన్ ఉచ్చులను ఉపయోగించండి.",
+        "kn": "ಸಮಗ್ರ ಕೀಟ ನಿರ್ವಹಣೆ (IPM) ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ: 1) ಬೇವಿನ ಆಧಾರಿತ ಸಿಂಪಡಣೆಗಳನ್ನು ಬಳಸಿ, 2) ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಪರಿಚಯಿಸಿ."
+      }
+    },
+    {
       "tag": "government_schemes",
       "patterns": [
         "government schemes for farmers",
         "PM kisan samman nidhi",
         "subsidy for tractors",
-        "agricultural loan schemes"
+        "agricultural loan schemes",
+        "farming subsidies",
+        "arasu thittangal",
+        "vivasayigalukana thittangal",
+        "vivasaya maniyam",
+        "kisan yojanayen",
+        "sarkari yojanayen",
+        "prabhutvha pathakalu",
+        "raithara yojanegalu",
+        "அரசு திட்டங்கள்",
+        "விவசாயிகளுக்கான திட்டங்கள்",
+        "விவசாய மானியம்",
+        "किसान योजनाएं",
+        "सरकारी योजनाएं",
+        "ప్రభుత్వ పథకాలు",
+        "ರೈತರ ಯೋಜನೆಗಳು"
       ],
       "responses": {
-        "en": "Popular schemes include PM-KISAN (income support), PMFBY (crop insurance), and KCC (Kisan Credit Card) for low-interest loans.",
-        "ta": "பிரபலமான திட்டங்களில் பிஎம்-கிசான் (வருவாய் ஆதரவு), பிஎம்எஃப்பிஒய் (பயிர் காப்பீடு) மற்றும் கேசிசி (விவசாய கடன் அட்டை) ஆகியவை அடங்கும்.",
-        "hi": "लोकप्रिय योजनाओं में पीएम-किसान (आय सहायता), पीएमएफबीवाई (फसल बीमा), और केसीसी (किसान क्रेडिट कार्ड) शामिल हैं।",
-        "te": "జనాదరణ పొందిన పథకాల్లో PM-KISAN (ఆదాయ మద్దతు), PMFBY (పంట బీమా) మరియు KCC (కిసాన్ క్రెడిట్ కార్డ్) ఉన్నాయి.",
-        "kn": "ಜನಪ್ರಿಯ ಯೋಜನೆಗಳಲ್ಲಿ PM-KISAN (ಆದಾಯ ಬೆಂಬಲ), PMFBY (ಬೆಳೆ ವಿಮೆ) ಮತ್ತು KCC (ಕಿಸಾನ್ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್) ಸೇರಿವೆ."
+        "en": "Popular schemes include PM-KISAN (₹6000/year income support), PMFBY (crop insurance), KCC (Kisan Credit Card for low-interest loans), Soil Health Card Scheme, and e-NAM (online agricultural market).",
+        "ta": "பிரபலமான திட்டங்களில் பிஎம்-கிசான் (₹6000/ஆண்டு வருவாய் ஆதரவு), பிஎம்எஃப்பிஒய் (பயிர் காப்பீடு), கேசிசி (விவசாய கடன் அட்டை), மண் ஆரோக்கிய அட்டை மற்றும் இ-நாம் (ஆன்லைன் விவசாய சந்தை) ஆகியவை அடங்கும்.",
+        "hi": "लोकप्रिय योजनाओं में पीएम-किसान (₹6000/वर्ष आय सहायता), पीएमएफबीवाई (फसल बीमा), केसीसी (कम ब्याज ऋण), मृदा स्वास्थ्य कार्ड और ई-एनएएम शामिल हैं।",
+        "te": "జనాదరణ పొందిన పథకాల్లో PM-KISAN (₹6000/సంవత్సరం ఆదాయ మద్దతు), PMFBY (పంట బీమా), KCC (రైతు క్రెడిట్ కార్డ్) ఉన్నాయి.",
+        "kn": "ಜನಪ್ರಿಯ ಯೋಜನೆಗಳಲ್ಲಿ PM-KISAN (₹6000/ವರ್ಷ ಆದಾಯ ಬೆಂಬಲ), PMFBY (ಬೆಳೆ ವಿಮೆ), KCC (ಕಿಸಾನ್ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್) ಸೇರಿವೆ."
+      }
+    },
+    {
+      "tag": "soil_types",
+      "patterns": [
+        "types of soil",
+        "soil types in India",
+        "what type of soil is best for farming",
+        "how to identify soil type",
+        "மண் வகைகள்",
+        "எந்த மண் விவசாயத்திற்கு நல்லது",
+        "मिट्टी के प्रकार",
+        "నేల రకాలు",
+        "ಮಣ್ಣಿನ ವಿಧಗಳು"
+      ],
+      "responses": {
+        "en": "Major soil types in India: 1) **Alluvial soil** - best for wheat, rice, sugarcane. 2) **Black/Regur soil** - ideal for cotton. 3) **Red soil** - good for millets, groundnut. 4) **Laterite soil** - suitable for tea, coffee. 5) **Sandy soil** - good for coconut, cashew. Get a soil test at your nearest Krishi Vigyan Kendra.",
+        "ta": "இந்தியாவின் முக்கிய மண் வகைகள்: 1) **வண்டல் மண்** - கோதுமை, நெல், கரும்புக்கு சிறந்தது. 2) **கரிசல் மண்** - பருத்திக்கு ஏற்றது. 3) **சிவப்பு மண்** - சிறுதானியங்கள், நிலக்கடலைக்கு நல்லது. 4) **லேட்டரைட் மண்** - தேயிலை, காபிக்கு ஏற்றது.",
+        "hi": "भारत के प्रमुख मिट्टी प्रकार: 1) **जलोढ़ मिट्टी** - गेहूं, चावल, गन्ने के लिए सबसे अच्छी। 2) **काली मिट्टी** - कपास के लिए आदर्श। 3) **लाल मिट्टी** - बाजरा, मूंगफली के लिए अच्छी। 4) **लैटेराइट मिट्टी** - चाय, कॉफी के लिए उपयुक्त।",
+        "te": "భారతదేశంలో ప్రధాన నేల రకాలు: 1) **ఒండ్రు నేల** - గోధుమ, వరి, చెరకుకు అత్యుత్తమం. 2) **నల్ల నేల** - పత్తికి అనుకూలం.",
+        "kn": "ಭಾರತದಲ್ಲಿ ಪ್ರಮುಖ ಮಣ್ಣಿನ ವಿಧಗಳು: 1) **ಮೆಕ್ಕಲು ಮಣ್ಣು** - ಗೋಧಿ, ಭತ್ತ, ಕಬ್ಬುಗಳಿಗೆ ಅತ್ಯುತ್ತಮ."
+      }
+    },
+    {
+      "tag": "irrigation",
+      "patterns": [
+        "irrigation methods",
+        "best irrigation for crops",
+        "drip irrigation",
+        "sprinkler irrigation",
+        "how to save water in farming",
+        "நீர் பாசன முறைகள்",
+        "சொட்டு நீர் பாசனம்",
+        "सिंचाई के तरीके",
+        "ड्रिप सिंचाई",
+        "నీటిపారుదల పద్ధతులు",
+        "ನೀರಾವರಿ ವಿಧಾನಗಳು"
+      ],
+      "responses": {
+        "en": "Modern irrigation methods: 1) **Drip irrigation** - saves 30-60% water, best for vegetables and fruits. 2) **Sprinkler irrigation** - good for cereals and pulses. 3) **Furrow irrigation** - traditional, used for row crops. Government subsidies up to 55% available for micro-irrigation under PMKSY.",
+        "ta": "நவீன நீர் பாசன முறைகள்: 1) **சொட்டு நீர் பாசனம்** - 30-60% நீர் சேமிக்கும், காய்கறிகள் மற்றும் பழங்களுக்கு சிறந்தது. 2) **தெளிப்பு நீர் பாசனம்** - தானியங்கள் மற்றும் பருப்புகளுக்கு நல்லது. PMKSY திட்டத்தின் கீழ் 55% வரை மானியம் உள்ளது.",
+        "hi": "आधुनिक सिंचाई विधियां: 1) **ड्रिप सिंचाई** - 30-60% पानी बचाता है। 2) **स्प्रिंकलर सिंचाई** - अनाज और दालों के लिए अच्छा। PMKSY के तहत 55% तक सब्सिडी उपलब्ध है।",
+        "te": "ఆధునిక నీటిపారుదల పద్ధతులు: 1) **బిందు సేద్యం** - 30-60% నీరు ఆదా. 2) **తుంపర సేద్యం** - ధాన్యాలు మరియు పప్పుధాన్యాలకు మంచిది.",
+        "kn": "ಆಧುನಿಕ ನೀರಾವರಿ ವಿಧಾನಗಳು: 1) **ಹನಿ ನೀರಾವರಿ** - 30-60% ನೀರು ಉಳಿಸುತ್ತದೆ. 2) **ತುಂತುರು ನೀರಾವರಿ** - ಧಾನ್ಯಗಳು ಮತ್ತು ಬೇಳೆಗಳಿಗೆ ಒಳ್ಳೆಯದು."
+      }
+    },
+    {
+      "tag": "weather_impact",
+      "patterns": [
+        "weather impact on crops",
+        "monsoon and farming",
+        "rain forecast for agriculture",
+        "drought resistant crops",
+        "climate change and farming",
+        "வானிலை தாக்கம்",
+        "மழை பயிர்",
+        "வறட்சியில் என்ன பயிர்",
+        "मौसम का प्रभाव",
+        "सूखे में कौन सी फसल",
+        "వాతావరణ ప్రభావం",
+        "ಹವಾಮಾನ ಪ್ರಭಾವ"
+      ],
+      "responses": {
+        "en": "Weather greatly impacts farming. **Drought-resistant crops**: Millets (Bajra, Ragi), Sorghum, Pulses. **Flood-tolerant varieties**: Swarna-Sub1 (rice). Monitor IMD weather forecasts and plan sowing accordingly. Climate-smart farming practices help reduce risks.",
+        "ta": "வானிலை விவசாயத்தை பெரிதும் பாதிக்கிறது. **வறட்சி எதிர்ப்பு பயிர்கள்**: சிறுதானியங்கள் (கம்பு, ராகி), சோளம், பருப்புகள். **வெள்ள தாங்கும் ரகங்கள்**: சுவர்ணா-சப்1 (நெல்). IMD வானிலை முன்னறிவிப்புகளைக் கண்காணியுங்கள்.",
+        "hi": "मौसम खेती को बहुत प्रभावित करता है। **सूखा प्रतिरोधी फसलें**: बाजरा, रागी, ज्वार, दालें। **बाढ़ सहनशील किस्में**: स्वर्णा-सब1 (धान)।",
+        "te": "వాతావరణం వ్యవసాయాన్ని చాలా ప్రభావితం చేస్తుంది. **కరవు-నిరోధక పంటలు**: సజ్జలు, రాగులు, జొన్నలు.",
+        "kn": "ಹವಾಮಾನ ಕೃಷಿಯ ಮೇಲೆ ಬಹಳ ಪ್ರಭಾವ ಬೀರುತ್ತದೆ. **ಬರ-ನಿರೋಧಕ ಬೆಳೆಗಳು**: ಸಜ್ಜೆ, ರಾಗಿ, ಜೋಳ."
+      }
+    },
+    {
+      "tag": "organic_farming",
+      "patterns": [
+        "organic farming",
+        "how to do organic farming",
+        "benefits of organic farming",
+        "organic certification",
+        "இயற்கை விவசாயம்",
+        "இயற்கை வேளாண்மை",
+        "जैविक खेती",
+        "जैविक खेती कैसे करें",
+        "సేంద్రియ వ్యవసాయం",
+        "ಸಾವಯವ ಕೃಷಿ"
+      ],
+      "responses": {
+        "en": "Organic farming avoids synthetic chemicals. Key practices: 1) **Composting** and vermicompost for nutrition, 2) **Crop rotation** to maintain soil health, 3) **Bio-pesticides** (Neem, Trichoderma), 4) **Green manuring**. Get Organic certification through PGS-India or NPOP. Premium prices of 20-30% higher for organic produce.",
+        "ta": "இயற்கை விவசாயம் செயற்கை ரசாயனங்களைத் தவிர்க்கிறது. முக்கிய நடைமுறைகள்: 1) **மக்கு உரம்** மற்றும் மண்புழு உரம், 2) **பயிர் சுழற்சி**, 3) **உயிர் பூச்சிக்கொல்லிகள்** (வேம்பு, டிரைக்கோடெர்மா), 4) **பசுந்தாள் உரம்**.",
+        "hi": "जैविक खेती रासायनिक पदार्थों से बचती है। मुख्य प्रथाएं: 1) **खाद** और वर्मीकम्पोस्ट, 2) **फसल चक्रण**, 3) **जैव कीटनाशक** (नीम, ट्राइकोडर्मा), 4) **हरी खाद**।",
+        "te": "సేంద్రియ వ్యవసాయం సింథటిక్ రసాయనాలను నివారిస్తుంది. ప్రధాన పద్ధతులు: 1) **కంపోస్టింగ్**, 2) **పంట మార్పిడి**, 3) **జీవ పురుగుమందులు**.",
+        "kn": "ಸಾವಯವ ಕೃಷಿ ಸಂಶ್ಲೇಷಿತ ರಾಸಾಯನಿಕಗಳನ್ನು ತಪ್ಪಿಸುತ್ತದೆ. ಪ್ರಮುಖ ಅಭ್ಯಾಸಗಳು: 1) **ಕಾಂಪೋಸ್ಟಿಂಗ್**, 2) **ಬೆಳೆ ಸರದಿ**, 3) **ಜೈವಿಕ ಕೀಟನಾಶಕಗಳು**."
+      }
+    },
+    {
+      "tag": "market_prices",
+      "patterns": [
+        "crop market prices",
+        "MSP for crops",
+        "minimum support price",
+        "where to sell crops",
+        "mandi prices",
+        "சந்தை விலை",
+        "குறைந்தபட்ச ஆதார விலை",
+        "बाजार भाव",
+        "न्यूनतम समर्थन मूल्य",
+        "మార్కెట్ ధరలు",
+        "ಮಾರುಕಟ್ಟೆ ಬೆಲೆ"
+      ],
+      "responses": {
+        "en": "Check Minimum Support Price (MSP) on the government website. You can sell crops through: 1) APMC mandis, 2) e-NAM (online agricultural market), 3) Direct sale to FPOs, 4) Contract farming. Use the Kisan Rath app for transport of produce.",
+        "ta": "குறைந்தபட்ச ஆதார விலையை (MSP) அரசு இணையதளத்தில் பாருங்கள். பயிர்களை விற்கலாம்: 1) APMC சந்தைகள், 2) இ-நாம் (ஆன்லைன் விவசாய சந்தை), 3) FPO-களுக்கு நேரடி விற்பனை.",
+        "hi": "न्यूनतम समर्थन मूल्य (MSP) सरकारी वेबसाइट पर देखें। फसल बेच सकते हैं: 1) APMC मंडी, 2) ई-एनएएम, 3) FPO को सीधी बिक्री।",
+        "te": "కనీస మద్దతు ధర (MSP) ప్రభుత్వ వెబ్‌సైట్‌లో చూడండి.",
+        "kn": "ಕನಿಷ್ಠ ಬೆಂಬಲ ಬೆಲೆ (MSP) ಸರ್ಕಾರಿ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ನೋಡಿ."
+      }
+    },
+    {
+      "tag": "crop_disease",
+      "patterns": [
+        "crop disease",
+        "yellow leaves on my plant",
+        "plant disease identification",
+        "leaf curl disease",
+        "blight in crops",
+        "பயிர் நோய்",
+        "இலை மஞ்சள் ஆகுதல்",
+        "फसल रोग",
+        "पौधों की बीमारी",
+        "పంట వ్యాధి",
+        "ಬೆಳೆ ರೋಗ"
+      ],
+      "responses": {
+        "en": "Common crop diseases: 1) **Blast** (rice) - use Tricyclazole. 2) **Blight** (potato/tomato) - use Mancozeb. 3) **Wilt** (cotton/tomato) - use resistant varieties. 4) **Yellow mosaic** (pulses) - control whitefly vectors. Always use disease-resistant varieties and practice crop rotation.",
+        "ta": "பொதுவான பயிர் நோய்கள்: 1) **கருக்கல் நோய்** (நெல்) - டிரைசைக்ளோசோல் பயன்படுத்துங்கள். 2) **கரும்புள்ளி நோய்** (உருளை/தக்காளி) - மான்கோசெப் பயன்படுத்துங்கள். 3) **வாடல் நோய்** - எதிர்ப்பு ரகங்களைப் பயன்படுத்துங்கள்.",
+        "hi": "सामान्य फसल रोग: 1) **ब्लास्ट** (धान) - ट्राइसाइक्लाजोल। 2) **ब्लाइट** (आलू/टमाटर) - मैंकोजेब। 3) **विल्ट** (कपास/टमाटर) - प्रतिरोधी किस्में।",
+        "te": "సాధారణ పంట వ్యాధులు: 1) **బ్లాస్ట్** (వరి) - ట్రైసైక్లజోల్ వాడండి. 2) **బ్లైట్** (ఆలుగడ్డ/టమాటా) - మాంకోజెబ్ వాడండి.",
+        "kn": "ಸಾಮಾನ್ಯ ಬೆಳೆ ರೋಗಗಳು: 1) **ಬ್ಲಾಸ್ಟ್** (ಭತ್ತ) - ಟ್ರೈಸೈಕ್ಲಜೋಲ್ ಬಳಸಿ."
+      }
+    },
+    {
+      "tag": "soil_testing",
+      "patterns": [
+        "how to test soil",
+        "soil testing",
+        "where to test soil",
+        "soil health card",
+        "மண் பரிசோதனை",
+        "மண் ஆரோக்கியம்",
+        "मिट्टी की जांच",
+        "मिट्टी परीक्षण",
+        "నేల పరీక్ష",
+        "ಮಣ್ಣಿನ ಪರೀಕ್ಷೆ"
+      ],
+      "responses": {
+        "en": "Get your soil tested at the nearest Krishi Vigyan Kendra (KVK) or agricultural university lab. The Soil Health Card scheme provides free testing. Test for pH, nitrogen, phosphorus, potassium, and organic carbon. Test every 2-3 years for best results.",
+        "ta": "அருகிலுள்ள கிருஷி விக்யான் கேந்திரா (KVK) அல்லது விவசாய பல்கலைக்கழக ஆய்வகத்தில் மண் பரிசோதனை செய்யுங்கள். மண் ஆரோக்கிய அட்டை திட்டம் இலவச பரிசோதனை வழங்குகிறது.",
+        "hi": "मिट्टी की जांच निकटतम कृषि विज्ञान केंद्र (KVK) या कृषि विश्वविद्यालय प्रयोगशाला में करवाएं। मृदा स्वास्थ्य कार्ड योजना मुफ्त जांच प्रदान करती है।",
+        "te": "సమీపంలోని కృషి విజ్ఞాన కేంద్రం (KVK) లేదా వ్యవసాయ విశ్వవిద్యాలయ ల్యాబ్‌లో నేల పరీక్ష చేయించుకోండి.",
+        "kn": "ಹತ್ತಿರದ ಕೃಷಿ ವಿಜ್ಞಾನ ಕೇಂದ್ರ (KVK) ಅಥವಾ ಕೃಷಿ ವಿಶ್ವವಿದ್ಯಾಲಯ ಪ್ರಯೋಗಾಲಯದಲ್ಲಿ ಮಣ್ಣಿನ ಪರೀಕ್ಷೆ ಮಾಡಿಸಿ."
+      }
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "what can you do",
+        "how can you help me",
+        "what do you know",
+        "உதவி",
+        "என்ன சொல்ல முடியும்",
+        "मदद",
+        "आप क्या कर सकते हैं",
+        "సహాయం",
+        "ಸಹಾಯ"
+      ],
+      "responses": {
+        "en": "I can help you with: 🌾 Crop recommendations & types, 🧪 Fertilizer advice, 🐛 Pest & disease control, 💧 Irrigation methods, 🏛️ Government schemes, 📊 Market prices & MSP, 🌱 Organic farming, 🌍 Soil types & testing. Ask me anything in English, Tamil, Hindi, Telugu, or Kannada!",
+        "ta": "நான் உங்களுக்கு உதவ முடியும்: 🌾 பயிர் பரிந்துரைகள் & வகைகள், 🧪 உர ஆலோசனை, 🐛 பூச்சி & நோய் கட்டுப்பாடு, 💧 நீர் பாசன முறைகள், 🏛️ அரசு திட்டங்கள், 📊 சந்தை விலை, 🌱 இயற்கை விவசாயம், 🌍 மண் வகைகள். தமிழ், ஆங்கிலம், ஹிந்தி, தெலுங்கு, கன்னடம் ஆகிய மொழிகளில் கேளுங்கள்!",
+        "hi": "मैं आपकी मदद कर सकता हूँ: 🌾 फसल सिफारिशें, 🧪 उर्वरक सलाह, 🐛 कीट नियंत्रण, 💧 सिंचाई, 🏛️ सरकारी योजनाएं, 📊 बाजार भाव, 🌱 जैविक खेती, 🌍 मिट्टी परीक्षण। हिंदी, अंग्रेजी, तमिल, तेलुगु, कन्नड़ में पूछें!",
+        "te": "నేను మీకు సహాయం చేయగలను: 🌾 పంట సిఫార్సులు, 🧪 ఎరువు సలహా, 🐛 పురుగుల నియంత్రణ, 💧 నీటిపారుదల, 🏛️ ప్రభుత్వ పథకాలు.",
+        "kn": "ನಾನು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೆ: 🌾 ಬೆಳೆ ಶಿಫಾರಸುಗಳು, 🧪 ಗೊಬ್ಬರ ಸಲಹೆ, 🐛 ಕೀಟ ನಿಯಂತ್ರಣ, 💧 ನೀರಾವರಿ, 🏛️ ಸರ್ಕಾರಿ ಯೋಜನೆಗಳು."
       }
     }
   ]
